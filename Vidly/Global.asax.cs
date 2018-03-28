@@ -14,7 +14,7 @@ namespace Vidly
         {
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            RouteConfig.RegisterRoutes(RouteTable.Routes); //telling runtime these are the routes for the application
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }

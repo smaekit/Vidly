@@ -15,8 +15,8 @@ namespace Vidly
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                url: "{controller}/{action}/{id}",   //Specify the controller, a method and and id to start the app with else default
+                defaults: new { controller = "Movies", action = "Random", id = UrlParameter.Optional }
             );
         }
     }
